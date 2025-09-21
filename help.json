@@ -1,0 +1,68 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "Desi Founder Help",
+  "colors": {
+    "primary": "#16A34A",
+    "light": "#07C983",
+    "dark": "#15803D"
+  },
+  "favicon": "/favicon.svg",
+  "navigation": [
+    {
+      "group": "Individual",
+      "pages": [
+        {
+          "group": "Profile",
+          "pages": [
+            {
+              "group": "Individual Profile",
+              "pages": [
+                "individual/profile/profile-individual/work",
+                "individual/profile/profile-individual/projects",
+                "individual/profile/profile-individual/resume"
+              ]
+            },
+            {
+              "group": "Settings",
+              "pages": [
+                "individual/profile/settings/profile-settings",
+                "individual/profile/settings/account",
+                "individual/profile/settings/notifications"
+              ]
+            },
+            "individual/profile/faqs"
+          ]
+        },
+        {
+          "group": "Spotlight",
+          "pages": [
+            "individual/spotlight/introduction",
+            "individual/spotlight/rules-guidelines",
+            "individual/spotlight/how-to-launch",
+            "individual/spotlight/faqs"
+          ]
+        },
+        {
+          "group": "Community Feed",
+          "pages": [
+            "individual/community-feed/what-to-post",
+            "individual/community-feed/rules-guidelines",
+            "individual/community-feed/faqs"
+          ]
+        },
+        "individual/referrals",
+        "individual/about"
+      ]
+    },
+    {
+      "group": "Legal",
+      "pages": [
+        "legal/terms",
+        "legal/privacy",
+        "legal/code-of-conduct",
+        "legal/content-policies"
+      ]
+    }
+  ]
+}
