@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Desi Founder Help",
+  "name": "Mint Starter Kit",
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
@@ -11,27 +11,14 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Individual",
+        "tab": "Guides",
         "groups": [
           {
             "group": "Getting started",
             "pages": [
-              "index"
-            ]
-          },
-          {
-            "group": "Profile",
-            "pages": [
-              {
-                "group": "Individual Profile",
-                "pages": [
-                "individual/profile/profile-individual/work",
-                "individual/profile/profile-individual/projects",
-                "individual/profile/profile-individual/resume"
-              ]
-            },
-              "essentials/settings",
-              "essentials/navigation"
+              "index",
+              "quickstart",
+              "development"
             ]
           },
           {
@@ -56,44 +43,6 @@
               "ai-tools/cursor",
               "ai-tools/claude-code",
               "ai-tools/windsurf"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "Legal",
-        "groups": [
-          {
-            "group": "Terms",
-            "pages": [
-              "#terms-and-conditions"
-            ]
-          },
-          {
-            "group": "Privacy",
-            "pages": [
-              "legal/privacy-policy"
-            ]
-          },
-          {
-            "group": "Code of Conduct",
-            "pages": [
-              "legal/code-of-conduct"
-            ]
-          },
-          {
-            "group": "Content Policies",
-            "pages": [
-              "legal/content-policies"
-            ]
-          },
-          {
-            "group": "Terms",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
             ]
           }
         ]
@@ -127,7 +76,7 @@
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "mailto:contact@desifounder.com"
       }
     ],
     "primary": {
@@ -150,7 +99,8 @@
   },
   "footer": {
     "socials": {
-      
+      "x": "https://x.com/desifounder_",
+      "linkedin": "https://linkedin.com/company/mintlify"
     }
   }
 }
