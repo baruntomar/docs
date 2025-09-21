@@ -18,48 +18,48 @@
             {
               "group": "Individual Profile",
               "pages": [
-                "individual/profile/profile-individual/work",
-                "individual/profile/profile-individual/projects",
-                "individual/profile/profile-individual/resume"
+                "individual/desifounder-profile/how-to-create-desifounder-profile",
+                "individual/desifounder-profile/how-to-create-desifounder-profile/how-to-connect-my-socials-on-my-desifounder-profile",
+                "individual/desifounder-profile/how-to-create-desifounder-profile/projects"
               ]
             },
             {
               "group": "Settings",
               "pages": [
-                "individual/profile/settings/profile-settings",
-                "individual/profile/settings/account",
-                "individual/profile/settings/notifications"
+                "individual/desifounder-profile/settings/profile",
+                "individual/desifounder-profile/settings/account",
+                "individual/desifounder-profile/settings/notifications"
               ]
             },
-            "individual/profile/faqs"
+            "individual/desifounder-profile/faqs"
           ]
         },
         {
           "group": "Spotlight",
           "pages": [
             "individual/spotlight/introduction",
-            "individual/spotlight/rules-guidelines",
-            "individual/spotlight/how-to-launch",
-            "individual/spotlight/faqs"
+            "individual/spotlight/guidelines-faqs",
+            "individual/spotlight/how-to-launch-a-project-on-desifounder-spotlight",
+            "individual/spotlight/frequently-asked-questions-about-spotlight-by-desifounder"
           ]
         },
         {
           "group": "Community Feed",
           "pages": [
-            "individual/community-feed/what-to-post",
+            "individual/community-feed/what-can-i-post-on-desifounder-community-feed",
             "individual/community-feed/rules-guidelines",
             "individual/community-feed/faqs"
           ]
         },
-        "individual/referrals",
+        "individual/referral-program-terms-and-conditions",
         "individual/about"
       ]
     },
     {
       "group": "Legal",
       "pages": [
-        "legal/terms",
-        "legal/privacy",
+        "legal/terms-and-conditions",
+        "legal/privacy-policy",
         "legal/code-of-conduct",
         "legal/content-policies"
       ]
