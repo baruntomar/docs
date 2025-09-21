@@ -11,7 +11,7 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Individual",
         "groups": [
           {
             "group": "Getting started",
@@ -46,16 +46,34 @@
         ]
       },
       {
-        "tab": "API reference",
+        "tab": "Legal",
         "groups": [
           {
-            "group": "API documentation",
+            "group": "Terms",
             "pages": [
-              "api-reference/introduction"
+              "legal/terms-and-conditions"
             ]
           },
           {
-            "group": "Endpoint examples",
+            "group": "Privacy",
+            "pages": [
+              "legal/privacy-policy"
+            ]
+          },
+          {
+            "group": "Code of Conduct",
+            "pages": [
+              "legal/code-of-conduct"
+            ]
+          },
+          {
+            "group": "Content Policies",
+            "pages": [
+              "legal/content-policies"
+            ]
+          },
+          {
+            "group": "Terms",
             "pages": [
               "api-reference/endpoint/get",
               "api-reference/endpoint/create",
