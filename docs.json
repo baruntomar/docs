@@ -23,12 +23,7 @@
                 "href": "mailto:contact@desifounder.com",
                 "label": "Support"
             }
-        ],
-        "primary": {
-            "href": "https://dashboard.mintlify.com",
-            "label": "Dashboard",
-            "type": "button"
-        }
+        ]
     },
     "navigation": {
         "global": {
@@ -40,7 +35,7 @@
                 },
                 {
                     "anchor": "Articles",
-                    "href": "https://desifounder.com/article",
+                    "href": "https://desifounder.com/articles",
                     "icon": "newspaper"
                 }
             ]
