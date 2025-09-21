@@ -20,6 +20,21 @@
             ]
           },
           {
+            "group": "Profile",
+            "pages": [
+              {
+                "group": "Individual Profile",
+                "pages": [
+                "individual/profile/profile-individual/work",
+                "individual/profile/profile-individual/projects",
+                "individual/profile/profile-individual/resume"
+              ]
+            },
+              "essentials/settings",
+              "essentials/navigation"
+            ]
+          },
+          {
             "group": "Customization",
             "pages": [
               "essentials/settings",
