@@ -1,106 +1,149 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "Mint Starter Kit",
-  "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
-  },
-  "favicon": "/favicon.svg",
-  "navigation": {
-    "tabs": [
-      {
-        "tab": "Guides",
-        "groups": [
-          {
-            "group": "Getting started",
-            "pages": [
-              "index",
-              "quickstart",
-              "development"
-            ]
-          },
-          {
-            "group": "Customization",
-            "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
-          },
-          {
-            "group": "Writing content",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
-          }
+    "$schema": "https://mintlify.com/docs.json",
+    "colors": {
+        "dark": "#15803D",
+        "light": "#07C983",
+        "primary": "#16A34A"
+    },
+    "contextual": {
+        "options": [
+            "copy",
+            "view",
+            "chatgpt",
+            "claude",
+            "perplexity",
+            "mcp",
+            "cursor",
+            "vscode"
         ]
-      }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+    },
+    "favicon": "/favicon.svg",
+    "footer": {
+        "socials": {
+            "linkedin": "https://linkedin.com/company/mintlify",
+            "x": "https://x.com/desifounder_"
         }
-      ]
-    }
-  },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
-  "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:contact@desifounder.com"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
-    }
-  },
-  "contextual": {
-    "options": [
-      "copy",
-      "view",
-      "chatgpt",
-      "claude",
-      "perplexity",
-      "mcp",
-      "cursor",
-      "vscode"
-    ]
-  },
-  "footer": {
-    "socials": {
-      "x": "https://x.com/desifounder_",
-      "linkedin": "https://linkedin.com/company/mintlify"
-    }
-  }
+    },
+    "logo": {
+        "dark": "/logo/dark.svg",
+        "light": "/logo/light.svg"
+    },
+    "name": "Desi Founder Help",
+    "navbar": {
+        "links": [
+            {
+                "href": "mailto:contact@desifounder.com",
+                "label": "Support"
+            }
+        ],
+        "primary": {
+            "href": "https://dashboard.mintlify.com",
+            "label": "Dashboard",
+            "type": "button"
+        }
+    },
+    "navigation": {
+        "global": {
+            "anchors": [
+                {
+                    "anchor": "Documentation",
+                    "href": "https://mintlify.com/docs",
+                    "icon": "book-open-cover"
+                },
+                {
+                    "anchor": "Community",
+                    "href": "https://mintlify.com/community",
+                    "icon": "slack"
+                },
+                {
+                    "anchor": "Blog",
+                    "href": "https://mintlify.com/blog",
+                    "icon": "newspaper"
+                }
+            ]
+        },
+        "tabs": [
+            {
+                "groups": [
+                    {
+                        "group": "Individual",
+                        "pages": [
+                            {
+                                "group": "Profile",
+                                "pages": [
+                                    {
+                                        "group": "Individual Profile",
+                                        "pages": [
+                                            "individual/desifounder-profile/how-to-create-desifounder-profile",
+                                            "individual/desifounder-profile/how-to-create-desifounder-profile/how-to-connect-my-socials-on-my-desifounder-profile",
+                                            "individual/desifounder-profile/how-to-create-desifounder-profile/projects"
+                                        ]
+                                    },
+                                    {
+                                        "group": "Settings",
+                                        "pages": [
+                                            "individual/desifounder-profile/settings/profile",
+                                            "individual/desifounder-profile/settings/account",
+                                            "individual/desifounder-profile/settings/notifications"
+                                        ]
+                                    },
+                                    {
+                                        "group": "FAQs",
+                                        "pages": [
+                                            "individual/desifounder-profile/faqs"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "group": "Spotlight",
+                                "pages": [
+                                    "individual/spotlight/introduction",
+                                    "individual/spotlight/guidelines-faqs",
+                                    "individual/spotlight/how-to-launch-a-project-on-desifounder-spotlight",
+                                    "individual/spotlight/frequently-asked-questions-about-spotlight-by-desifounder"
+                                ]
+                            },
+                            {
+                                "group": "Community Feed",
+                                "pages": [
+                                    "individual/community-feed/what-can-i-post-on-desifounder-community-feed",
+                                    "individual/community-feed/rules-guidelines",
+                                    "individual/community-feed/faqs"
+                                ]
+                            },
+                            {
+                                "group": "Referral Program",
+                                "pages": [
+                                    "individual/referral-program-terms-and-conditions"
+                                ]
+                            },
+                            {
+                                "group": "About",
+                                "pages": [
+                                    "individual/about"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "tab": "Guides"
+            },
+            {
+                "groups": [
+                    {
+                        "group": "Legal",
+                        "pages": [
+                            "legal/terms-and-conditions",
+                            "legal/privacy-policy",
+                            "legal/code-of-conduct",
+                            "legal/content-policies"
+                        ]
+                    }
+                ],
+                "tab": "Legal"
+            }
+        ]
+    },
+    "theme": "mint"
 }
