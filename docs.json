@@ -5,22 +5,10 @@
         "light": "#07C983",
         "primary": "#16A34A"
     },
-    "contextual": {
-        "options": [
-            "copy",
-            "view",
-            "chatgpt",
-            "claude",
-            "perplexity",
-            "mcp",
-            "cursor",
-            "vscode"
-        ]
-    },
     "favicon": "/favicon.svg",
     "footer": {
         "socials": {
-            "linkedin": "https://linkedin.com/company/mintlify",
+            "linkedin": "https://in.linkedin.com/company/desifounder",
             "x": "https://x.com/desifounder_"
         }
     },
@@ -48,10 +36,10 @@
                 {
                     "anchor": "Community",
                     "href": "https://desifounder.com",
-                    "icon": "web"
+                    "icon": "link"
                 },
                 {
-                    "anchor": "Blog",
+                    "anchor": "Articles",
                     "href": "https://desifounder.com/article",
                     "icon": "newspaper"
                 }
