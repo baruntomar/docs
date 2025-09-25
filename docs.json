@@ -67,9 +67,9 @@
                                     {
                                         "group": "Settings",
                                         "pages": [
-                                            "individual/desifounder-profile/settings/profile",
-                                            "individual/desifounder-profile/settings/account",
-                                            "individual/desifounder-profile/settings/notifications"
+                                            "individual/settings/profile",
+                                            "individual/settings/account",
+                                            "individual/settings/notifications"
                                         ]
                                     },
                                     {
