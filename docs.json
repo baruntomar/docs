@@ -75,7 +75,7 @@
                                     {
                                         "group": "FAQs",
                                         "pages": [
-                                            "individual/frequently-asked-questions"
+                                            "individual/profile-frequently-asked-questions"
                                         ]
                                     }
                                 ]
@@ -94,7 +94,7 @@
                                 "pages": [
                                     "individual/community-feed/what-can-i-post-on-desifounder-community-feed",
                                     "individual/community-feed/rules-guidelines",
-                                    "individual/community-feed/faqs"
+                                    "individual/community-feed/frequently-asked-questions.mdx"
                                 ]
                             },
                             {
