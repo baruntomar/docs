@@ -75,7 +75,7 @@
                                     {
                                         "group": "FAQs",
                                         "pages": [
-                                            "individual/profile-faqs"
+                                            "individual/frequently-asked-questions"
                                         ]
                                     }
                                 ]
@@ -84,9 +84,9 @@
                                 "group": "Spotlight",
                                 "pages": [
                                     "individual/spotlight/introduction",
-                                    "individual/spotlight/guidelines-faqs",
-                                    "individual/spotlight/how-to-launch-a-project-on-desifounder-spotlight",
-                                    "individual/spotlight/frequently-asked-questions-about-spotlight-by-desifounder"
+                                    "spotlight/rules-guidelines",
+                                    "spotlight/how-to-launch-a-project-on-spotlight",
+                                    "individual/spotlight/frequently-asked-questions"
                                 ]
                             },
                             {
