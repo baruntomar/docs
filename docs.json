@@ -29,107 +29,112 @@
         ]
     },
     "navigation": {
-        "global": {
-            "anchors": [
-                {
-                    "anchor": "Community",
-                    "href": "https://desifounder.com",
-                    "icon": "link"
-                },
-              {
-                    "anchor": "Spotlight",
-                    "href": "https://desifounder.com/spotlight",
-                    "icon": "rocket"
-                },
-                {
-                    "anchor": "Articles",
-                    "href": "https://desifounder.com/articles",
-                    "icon": "newspaper"
-                }
-            ]
-        },
-        "tabs": [
-            {
-                "groups": [
-                    {
-                        "group": "Individual",
-                        "pages": [
-                            {
-                                "group": "Profile",
-                                "pages": [
-                                    {
-                                        "group": "Individual Profile",
-                                        "pages": [
-                                            "individual/desifounder-profile/how-to-create-desifounder-profile",
-                                            "individual/desifounder-profile/how-to-connect-my-socials-on-my-desifounder-profile",
-                                            "individual/desifounder-profile/projects"
-                                        ]
-                                    },
-                                    {
-                                        "group": "Settings",
-                                        "pages": [
-                                            "individual/settings/profile",
-                                            "individual/settings/account",
-                                            "individual/settings/notifications"
-                                        ]
-                                    },
-                                    {
-                                        "group": "FAQs",
-                                        "pages": [
-                                            "individual/profile-frequently-asked-questions"
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "group": "Spotlight",
-                                "pages": [
-                                    "individual/spotlight/introduction",
-                                    "individual/spotlight/rules-guidelines",
-                                    "individual/spotlight/how-to-launch-a-project-on-spotlight",
-                                    "individual/spotlight/frequently-asked-questions"
-                                ]
-                            },
-                            {
-                                "group": "Community Feed",
-                                "pages": [
-                                    "individual/community-feed/what-can-i-post-on-desifounder-community-feed",
-                                    "individual/community-feed/rules-guidelines",
-                                    "individual/community-feed/frequently-asked-questions"
-                                ]
-                            },
-                            {
-                                "group": "Referral Program",
-                                "pages": [
-                                    "individual/referral-program-terms-and-conditions"
-                                ]
-                            },
-                            {
-                                "group": "About",
-                                "pages": [
-                                    "individual/about"
-                                ]
-                            }
-                        ]
-                    }
-                ],
-                "tab": "Guides"
-            },
-            {
-                "groups": [
-                    {
-                        "group": "Legal",
-                        "pages": [
-                            "legal/terms-and-conditions",
-                            "legal/privacy-policy",
-                            "legal/code-of-conduct",
-                            "legal/content-policies"
-                        ]
-                    }
-                ],
-                "tab": "Legal"
-            }
+      "global": {
+        "anchors": [
+          {
+            "anchor": "Community",
+            "icon": "link",
+            "href": "https://desifounder.com"
+          },
+          {
+            "anchor": "Spotlight",
+            "icon": "rocket",
+            "href": "https://desifounder.com/spotlight"
+          },
+          {
+            "anchor": "Service Providers",
+            "icon": "grid-2-plus",
+            "href": "https://desifounder.com/directory/services"
+          },
+          {
+            "anchor": "Articles",
+            "icon": "newspaper",
+            "href": "https://desifounder.com/articles"
+          }
         ]
+      },
+      "tabs": [
+        {
+          "tab": "Guides",
+          "groups": [
+            {
+              "group": "Individual",
+              "pages": [
+                {
+                  "group": "Profile",
+                  "pages": [
+                    {
+                      "group": "Individual Profile",
+                      "pages": [
+                        "individual/desifounder-profile/how-to-create-desifounder-profile",
+                        "individual/desifounder-profile/how-to-connect-my-socials-on-my-desifounder-profile",
+                        "individual/desifounder-profile/projects"
+                      ]
+                    },
+                    {
+                      "group": "Settings",
+                      "pages": [
+                        "individual/settings/profile",
+                        "individual/settings/account",
+                        "individual/settings/notifications"
+                      ]
+                    },
+                    {
+                      "group": "FAQs",
+                      "pages": [
+                        "individual/profile-frequently-asked-questions"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "group": "Spotlight",
+                  "pages": [
+                    "individual/spotlight/introduction",
+                    "individual/spotlight/rules-guidelines",
+                    "individual/spotlight/how-to-launch-a-project-on-spotlight",
+                    "individual/spotlight/frequently-asked-questions"
+                  ]
+                },
+                {
+                  "group": "Community Feed",
+                  "pages": [
+                    "individual/community-feed/what-can-i-post-on-desifounder-community-feed",
+                    "individual/community-feed/rules-guidelines",
+                    "individual/community-feed/frequently-asked-questions"
+                  ]
+                },
+                {
+                  "group": "Referral Program",
+                  "pages": [
+                    "individual/referral-program-terms-and-conditions"
+                  ]
+                },
+                {
+                  "group": "About",
+                  "pages": [
+                    "individual/about"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tab": "Legal",
+          "groups": [
+            {
+              "group": "Legal",
+              "pages": [
+                "legal/terms-and-conditions",
+                "legal/privacy-policy",
+                "legal/code-of-conduct",
+                "legal/content-policies"
+              ]
+            }
+          ]
+        }
+      ]
     },
     "theme": "mint"
 }
