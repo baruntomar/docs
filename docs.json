@@ -12,7 +12,8 @@
             "x": "https://x.com/desifounder_",
             "discord": "https://discord.gg/WHGQvasn4r",
             "reddit": "https://www.reddit.com/r/desifounder",
-            "instagram": "https://instagram.com/desifounder"
+            "instagram": "https://instagram.com/desifounder",
+            "website": "https://desifounder.com"
         }
     },
     "logo": {
@@ -139,5 +140,18 @@
       ]
     },
     "theme": "mint",
-    "description": "Help Documents for Desi Founder"
+    "description": "Help Documents for Desi Founder",
+    "contextual": {
+      "options": [
+        "copy",
+        "view",
+        "chatgpt",
+        "claude",
+        "perplexity",
+        "mcp",
+        "cursor",
+        "vscode"
+      ],
+      "display": "header"
+    }
 }
